@@ -1,0 +1,86 @@
+/*Style index.html*/
+
+body{
+    background-color:;
+    color: black;
+    font-family: Verdana, Genea, Tahoma, sans-serif;
+    text-align: center;
+    margin: 0;
+    }
+
+p{
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.container{
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.container-mb50{
+    margin-bottom: 50px;
+}
+.padding-30{
+    color: #2c1717;
+    padding: 30px;
+}
+.tamanhosocial{
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    padding: 30px;
+}
+
+.padding-31{
+    color: #5DC241;
+    padding: 10px;
+}
+
+.botao{
+    background: #6295a3;
+    display: block;
+    padding: 5px;
+    line-height: 1.5;
+    align-content: center;
+}
+#navbar{
+    width: 100%;
+    background: #6295a3;
+    padding: 1px;
+}
+
+#corfooter{
+    background: #5DC241;
+    padding: 5px;
+}
+
+#menu li{
+    display: inline;
+    font-size: 16px bold;
+    font-weight: bolder;
+    margin: 0 auto;
+    padding: 0px 30px ;
+   }
+
+   #menu li a {
+       text-decoration: none;
+       color: #594444;
+   }
+
+   #menu li a:hover{
+    color:#5DC241;
+   }
+
+
+/*Style historia.html*/
+
+/*Style pontos-turisticos.html*/
+
+/*Style contato.html*/
