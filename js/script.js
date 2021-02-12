@@ -20,19 +20,19 @@ function validaNome(){
         txtNome.style.color = 'green'
         txtNome.style.width = '10px'
     }
+}
+    
 
     function validaEmail() {
-        let txtEmail = document.querySelector('#txtEmail') 
-     
-        if (email.value.indexOf('@') == -1 || email.value.indexOf('.') == -1 ) {
-           txtEmail.innerHTML = 'E-mail inválido'
-           txtEmail.style.color = 'red'
+        let txtEmail = document.querySelector("#txtEmail");
+        if (email.value.indexOf("@") == -1 || email.value.indexOf(".") == -1) {
+          txtEmail.innerHTML = "E-mail inválido";
+          txtEmail.style.color = "red";
         } else {
-           txtEmail.innerHTML = 'E-mail válido'
-           txtEmail.style.color = 'green'
-           emailOk = true
+          txtEmail.innerHTML = "E-mail válido";
+          txtEmail.style.color = "green";
         }
-     }
+      }
 
     function validaAssunto() {
         let txtAssunto = document.querySelector('#txtAssunto')
@@ -54,6 +54,3 @@ function validaNome(){
            alert ('Preencha o formulário corretamente antes de enviar...')
         }
      }
-
-
-}
