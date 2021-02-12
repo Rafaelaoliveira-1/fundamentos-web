@@ -2,7 +2,7 @@
 
 body{
     color: black;
-    font-family: Verdana, Genea, Tahoma, sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
     text-align: center;
     margin: 0;
     }
@@ -85,14 +85,15 @@ h3{
     padding: 10px;
 }
 
-.botao{
+.botaoEnviar{
     background: #6295a3;
     display: block;
     padding: 5px;
     line-height: 1.5;
     border: 1px transparent solid;
-  border-radius:3px;
+    border-radius:3px;
     align-content: center;
+    width: 100px;
 }
 #navbar{
     width: 100%;
